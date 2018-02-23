@@ -49,7 +49,7 @@ class App extends Component {
           <button type='button' className='btn btn-danger' onClick={this.clearHistory}>Clear History</button>
         </span>
 
-        <h3>
+        <h3 className='my-3'>
           History
         </h3>
         <table className='table table-hover'>
