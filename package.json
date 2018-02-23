@@ -1,0 +1,27 @@
+{
+  "name": "online",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://harryjubb.github.io/amionline",
+  "dependencies": {
+    "bootstrap": "4.0.0",
+    "gh-pages": "^1.1.0",
+    "moment": "^2.20.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-helmet": "^5.2.0",
+    "react-redux": "^5.0.6",
+    "react-scripts": "1.0.17",
+    "redux": "^3.7.2",
+    "redux-persist": "^5.7.0",
+    "redux-undo": "^1.0.0-beta9-9-7"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

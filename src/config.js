@@ -1,0 +1,1 @@
+export const dtFormat = 'HH:mm:ss D-M-YYYY'
