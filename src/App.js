@@ -81,7 +81,7 @@ class App extends Component {
                   </td>
                 
                 </tr>)
-            }
+              )}
           </tbody>
         </table>
       </div>
