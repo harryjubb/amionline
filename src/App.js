@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import Helmet from 'react-helmet'
-// import './App.css'
 
 import moment from 'moment'
 import { dtFormat } from './config'
@@ -20,7 +19,6 @@ class App extends Component {
   }
 
   clearHistory = () => {
-    // this.props.dispatch(actions.clearOnlineHistory())
     this.props.dispatch(ActionCreators.clearHistory())
   }
 
@@ -82,7 +80,7 @@ class App extends Component {
                     {moment(entry.timestamp).format(dtFormat) }
                   </td>
                 
-                </tr>)) //{ moment(entry.first).fromNow()
+                </tr>)
             }
           </tbody>
         </table>
