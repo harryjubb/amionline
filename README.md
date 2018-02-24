@@ -1,3 +1,9 @@
+## Rationale
+
+I have a long ethernet cable that tends to be a bit dodgy. This app lets me keep track of when it cuts out, especially if I'm in a fullscreen app, it audibly lets me know when something's gone awry without switching from what I'm doing. As it logs the time, I can see if there's anything in the router logs to see if it's the cable or something else.
+
+## CRA Readme
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
